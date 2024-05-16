@@ -6,122 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1276</width>
-    <height>625</height>
+    <width>826</width>
+    <height>398</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>380</y>
-      <width>231</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>登录</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>450</y>
-      <width>231</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>注册</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_3">
-    <property name="geometry">
-     <rect>
-      <x>1160</x>
-      <y>540</y>
-      <width>93</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>注销</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="zhanghao_label">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>210</y>
-      <width>31</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>账号</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="zhanghao_lineEdit">
-    <property name="geometry">
-     <rect>
-      <x>440</x>
-      <y>210</y>
-      <width>371</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>22332</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="mima_lineEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>440</x>
-      <y>280</y>
-      <width>371</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>4554</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>280</y>
-      <width>31</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>密码</string>
-    </property>
-   </widget>
-  </widget>
+  <widget class="QWidget" name="centralwidget"/>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1276</width>
+     <width>826</width>
      <height>25</height>
     </rect>
    </property>
