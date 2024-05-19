@@ -227,10 +227,13 @@ Makefile: book.pro D:/QT/5.15.2/mingw81_64/mkspecs/win32-g++/qmake.conf D:/QT/5.
 		D:/QT/5.15.2/mingw81_64/mkspecs/features/qt_config.prf \
 		D:/QT/5.15.2/mingw81_64/mkspecs/win32-g++/qmake.conf \
 		D:/QT/5.15.2/mingw81_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		D:/QT/5.15.2/mingw81_64/mkspecs/features/exclusive_builds.prf \
 		D:/QT/5.15.2/mingw81_64/mkspecs/features/toolchain.prf \
 		D:/QT/5.15.2/mingw81_64/mkspecs/features/default_pre.prf \
 		D:/QT/5.15.2/mingw81_64/mkspecs/features/win32/default_pre.prf \
+		cell/cell.pri \
+		lib/lib.pri \
 		D:/QT/5.15.2/mingw81_64/mkspecs/features/resolve_config.prf \
 		D:/QT/5.15.2/mingw81_64/mkspecs/features/exclusive_builds_post.prf \
 		D:/QT/5.15.2/mingw81_64/mkspecs/features/default_post.prf \
@@ -255,7 +258,6 @@ Makefile: book.pro D:/QT/5.15.2/mingw81_64/mkspecs/win32-g++/qmake.conf D:/QT/5.
 		D:/QT/5.15.2/mingw81_64/lib/Qt5Gui.prl \
 		D:/QT/5.15.2/mingw81_64/lib/Qt5Core.prl \
 		D:/QT/5.15.2/mingw81_64/lib/qtmain.prl \
-		.qmake.stash \
 		D:/QT/5.15.2/mingw81_64/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile book.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 D:/QT/5.15.2/mingw81_64/mkspecs/features/spec_pre.prf:
@@ -415,10 +417,13 @@ D:/QT/5.15.2/mingw81_64/mkspecs/features/qt_functions.prf:
 D:/QT/5.15.2/mingw81_64/mkspecs/features/qt_config.prf:
 D:/QT/5.15.2/mingw81_64/mkspecs/win32-g++/qmake.conf:
 D:/QT/5.15.2/mingw81_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 D:/QT/5.15.2/mingw81_64/mkspecs/features/exclusive_builds.prf:
 D:/QT/5.15.2/mingw81_64/mkspecs/features/toolchain.prf:
 D:/QT/5.15.2/mingw81_64/mkspecs/features/default_pre.prf:
 D:/QT/5.15.2/mingw81_64/mkspecs/features/win32/default_pre.prf:
+cell/cell.pri:
+lib/lib.pri:
 D:/QT/5.15.2/mingw81_64/mkspecs/features/resolve_config.prf:
 D:/QT/5.15.2/mingw81_64/mkspecs/features/exclusive_builds_post.prf:
 D:/QT/5.15.2/mingw81_64/mkspecs/features/default_post.prf:
@@ -443,7 +448,6 @@ D:/QT/5.15.2/mingw81_64/lib/Qt5Widgets.prl:
 D:/QT/5.15.2/mingw81_64/lib/Qt5Gui.prl:
 D:/QT/5.15.2/mingw81_64/lib/Qt5Core.prl:
 D:/QT/5.15.2/mingw81_64/lib/qtmain.prl:
-.qmake.stash:
 D:/QT/5.15.2/mingw81_64/mkspecs/features/build_pass.prf:
 qmake: FORCE
 	@$(QMAKE) -o Makefile book.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"

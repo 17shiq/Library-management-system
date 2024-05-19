@@ -22,7 +22,7 @@ QWidget#QStackedWidget{background-color:white;}
 
 </string>
   </property>
-  <layout class="QGridLayout" name="gridLayout_2">
+  <layout class="QGridLayout" name="gridLayout_2" columnstretch="1,5">
    <property name="leftMargin">
     <number>0</number>
    </property>
@@ -62,7 +62,7 @@ QWidget#QStackedWidget{background-color:white;}
       <item row="4" column="0">
        <widget class="QToolButton" name="btn_record">
         <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
@@ -84,7 +84,7 @@ QWidget#QStackedWidget{background-color:white;}
       <item row="2" column="0">
        <widget class="QToolButton" name="btn_sent">
         <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
@@ -106,7 +106,7 @@ QWidget#QStackedWidget{background-color:white;}
       <item row="3" column="0">
        <widget class="QToolButton" name="btn_meeting">
         <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
@@ -128,7 +128,7 @@ QWidget#QStackedWidget{background-color:white;}
       <item row="1" column="0">
        <widget class="QToolButton" name="btn_book">
         <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
@@ -150,7 +150,7 @@ QWidget#QStackedWidget{background-color:white;}
       <item row="0" column="0">
        <widget class="QToolButton" name="btn_user">
         <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
