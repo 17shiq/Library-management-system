@@ -2,6 +2,8 @@
 #define WIDGET_H
 
 #include <QWidget>
+#include <QPushButton>
+#include "book.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
@@ -14,8 +16,11 @@ class Widget : public QWidget
 public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
+    void init();
+    void change();
 
 private:
     Ui::Widget *ui;
+    Book *book;
 };
 #endif // WIDGET_H

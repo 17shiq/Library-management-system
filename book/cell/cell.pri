@@ -1,10 +1,12 @@
 FORMS += \
+    $$PWD/book.ui \
     $$PWD/widget.ui
 
 HEADERS += \
-    $$PWD/ui_widget.h \
+    $$PWD/book.h \
     $$PWD/widget.h
 
 SOURCES += \
+    $$PWD/book.cpp \
     $$PWD/main.cpp \
     $$PWD/widget.cpp

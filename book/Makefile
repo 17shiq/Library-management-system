@@ -256,6 +256,7 @@ Makefile: book.pro D:/QT/5.15.2/mingw81_64/mkspecs/win32-g++/qmake.conf D:/QT/5.
 		book.pro \
 		D:/QT/5.15.2/mingw81_64/lib/Qt5Widgets.prl \
 		D:/QT/5.15.2/mingw81_64/lib/Qt5Gui.prl \
+		D:/QT/5.15.2/mingw81_64/lib/Qt5Sql.prl \
 		D:/QT/5.15.2/mingw81_64/lib/Qt5Core.prl \
 		D:/QT/5.15.2/mingw81_64/lib/qtmain.prl \
 		D:/QT/5.15.2/mingw81_64/mkspecs/features/build_pass.prf
@@ -446,6 +447,7 @@ D:/QT/5.15.2/mingw81_64/mkspecs/features/lex.prf:
 book.pro:
 D:/QT/5.15.2/mingw81_64/lib/Qt5Widgets.prl:
 D:/QT/5.15.2/mingw81_64/lib/Qt5Gui.prl:
+D:/QT/5.15.2/mingw81_64/lib/Qt5Sql.prl:
 D:/QT/5.15.2/mingw81_64/lib/Qt5Core.prl:
 D:/QT/5.15.2/mingw81_64/lib/qtmain.prl:
 D:/QT/5.15.2/mingw81_64/mkspecs/features/build_pass.prf:
