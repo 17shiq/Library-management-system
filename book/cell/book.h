@@ -16,7 +16,10 @@ class Book : public QWidget
 public:
     explicit Book(QWidget *parent = nullptr);
     ~Book();
-    void QMouseMoveEvent(QMoveEvent *e);
+
+
+private slots:
+    void on_btn_search_clicked();
 
 private:
     Ui::Book *ui;

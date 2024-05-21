@@ -42,7 +42,7 @@ public:
         Book->resize(790, 571);
         Book->setStyleSheet(QString::fromUtf8("QPushButton[name=\"btn\"]{border:1px solid #dcdfe6;border-radius:4px;font:14px \"\346\245\267\344\275\223\";background-color:white;color:black;min-height:27px;min-width:68px;}\n"
 "QPushButton#btn_search{border:none;border-radius:4px ;font:14px \"\346\245\267\344\275\223\";background-color:white;color:black;min-height:27px;min-width:40px;}\n"
-"QPushButton:checked{background-color:gray;}\n"
+"QPushButton:pressed{background-color:gray;}\n"
 "\n"
 "QWidget#Book{background-color:white;}\n"
 "QTableView{background-color:white;}\n"

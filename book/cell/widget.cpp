@@ -39,5 +39,6 @@ void Widget::init()
 //槽函数，点击主窗口左边的按钮时，进行页面的切换
 void Widget::change(){
 
+
 }
 

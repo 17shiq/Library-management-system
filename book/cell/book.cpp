@@ -15,7 +15,9 @@ Book::~Book()
     delete ui;
 }
 
-void Book::QMouseMoveEvent(QMoveEvent *e)
+
+void Book::on_btn_search_clicked()
 {
 
 }
+

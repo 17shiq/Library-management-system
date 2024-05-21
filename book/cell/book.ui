@@ -16,7 +16,7 @@
   <property name="styleSheet">
    <string notr="true">QPushButton[name=&quot;btn&quot;]{border:1px solid #dcdfe6;border-radius:4px;font:14px &quot;楷体&quot;;background-color:white;color:black;min-height:27px;min-width:68px;}
 QPushButton#btn_search{border:none;border-radius:4px ;font:14px &quot;楷体&quot;;background-color:white;color:black;min-height:27px;min-width:40px;}
-QPushButton:checked{background-color:gray;}
+QPushButton:pressed{background-color:gray;}
 
 QWidget#Book{background-color:white;}
 QTableView{background-color:white;}

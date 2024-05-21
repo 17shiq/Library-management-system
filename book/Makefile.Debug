@@ -222,6 +222,8 @@ debug/moc_book.cpp: cell/book.h \
 		D:/QT/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
 		D:/QT/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
 		D:/QT/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/QMouseEvent \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/QMoveEvent \
 		debug/moc_predefs.h \
 		D:/QT/5.15.2/mingw81_64/bin/moc.exe
 	D:\QT\5.15.2\mingw81_64\bin\moc.exe $(DEFINES) --include E:/GitHub/project/Library-management-system/book/debug/moc_predefs.h -ID:/QT/5.15.2/mingw81_64/mkspecs/win32-g++ -IE:/GitHub/project/Library-management-system/book -ID:/QT/5.15.2/mingw81_64/include -ID:/QT/5.15.2/mingw81_64/include/QtWidgets -ID:/QT/5.15.2/mingw81_64/include/QtGui -ID:/QT/5.15.2/mingw81_64/include/QtANGLE -ID:/QT/5.15.2/mingw81_64/include/QtSql -ID:/QT/5.15.2/mingw81_64/include/QtCore -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -ID:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include cell\book.h -o debug\moc_book.cpp
@@ -334,7 +336,12 @@ debug/moc_widget.cpp: cell/widget.h \
 		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qpushbutton.h \
 		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h \
 		D:/QT/5.15.2/mingw81_64/include/QtGui/qicon.h \
+		D:/QT/5.15.2/mingw81_64/include/QtWidgets/QDialog \
+		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/QtDebug \
 		cell/book.h \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/QMouseEvent \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/QMoveEvent \
 		debug/moc_predefs.h \
 		D:/QT/5.15.2/mingw81_64/bin/moc.exe
 	D:\QT\5.15.2\mingw81_64\bin\moc.exe $(DEFINES) --include E:/GitHub/project/Library-management-system/book/debug/moc_predefs.h -ID:/QT/5.15.2/mingw81_64/mkspecs/win32-g++ -IE:/GitHub/project/Library-management-system/book -ID:/QT/5.15.2/mingw81_64/include -ID:/QT/5.15.2/mingw81_64/include/QtWidgets -ID:/QT/5.15.2/mingw81_64/include/QtGui -ID:/QT/5.15.2/mingw81_64/include/QtANGLE -ID:/QT/5.15.2/mingw81_64/include/QtSql -ID:/QT/5.15.2/mingw81_64/include/QtCore -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -ID:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include cell\widget.h -o debug\moc_widget.cpp
@@ -470,6 +477,8 @@ debug/book.o: cell/book.cpp cell/book.h \
 		D:/QT/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
 		D:/QT/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
 		D:/QT/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/QMouseEvent \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/QMoveEvent \
 		ui_book.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\book.o cell\book.cpp
 
@@ -581,7 +590,12 @@ debug/main.o: cell/main.cpp cell/widget.h \
 		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qpushbutton.h \
 		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h \
 		D:/QT/5.15.2/mingw81_64/include/QtGui/qicon.h \
+		D:/QT/5.15.2/mingw81_64/include/QtWidgets/QDialog \
+		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/QtDebug \
 		cell/book.h \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/QMouseEvent \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/QMoveEvent \
 		D:/QT/5.15.2/mingw81_64/include/QtWidgets/QApplication \
 		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
 		D:/QT/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
@@ -699,32 +713,85 @@ debug/widget.o: cell/widget.cpp cell/widget.h \
 		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qpushbutton.h \
 		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h \
 		D:/QT/5.15.2/mingw81_64/include/QtGui/qicon.h \
+		D:/QT/5.15.2/mingw81_64/include/QtWidgets/QDialog \
+		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/QtDebug \
 		cell/book.h \
-		ui_widget.h \
-		D:/QT/5.15.2/mingw81_64/include/QtCore/QVariant \
-		D:/QT/5.15.2/mingw81_64/include/QtWidgets/QApplication \
-		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
-		D:/QT/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
-		D:/QT/5.15.2/mingw81_64/include/QtCore/qeventloop.h \
-		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qdesktopwidget.h \
-		D:/QT/5.15.2/mingw81_64/include/QtGui/qguiapplication.h \
-		D:/QT/5.15.2/mingw81_64/include/QtGui/qinputmethod.h \
-		D:/QT/5.15.2/mingw81_64/include/QtWidgets/QButtonGroup \
-		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qbuttongroup.h \
-		D:/QT/5.15.2/mingw81_64/include/QtWidgets/QGridLayout \
-		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h \
-		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qlayout.h \
-		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qlayoutitem.h \
-		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qboxlayout.h \
-		D:/QT/5.15.2/mingw81_64/include/QtWidgets/QSpacerItem \
-		D:/QT/5.15.2/mingw81_64/include/QtWidgets/QStackedWidget \
-		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qstackedwidget.h \
-		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
-		D:/QT/5.15.2/mingw81_64/include/QtWidgets/QToolButton \
-		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qtoolbutton.h
+		D:/QT/5.15.2/mingw81_64/include/QtGui/QMouseEvent \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/QMoveEvent \
+		ui_widget.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\widget.o cell\widget.cpp
 
-debug/sql.o: lib/sql.cpp lib/sql.h
+debug/sql.o: lib/sql.cpp lib/sql.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/QSqlDatabase \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qsqldatabase.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qtsqlglobal.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qglobal.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qconfig-bootstrapped.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qconfig.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qprocessordetection.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qcompilerdetection.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qlogging.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qflags.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qatomic.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qatomic_bootstrap.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qatomic_cxx11.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qatomic_msvc.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qglobalstatic.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qmutex.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qnumeric.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qtsql-config.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qstring.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qchar.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qbytearray.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qstringliteral.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qstringview.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qstringbuilder.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/QtDebug \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qdebug.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qhash.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qiterator.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qlist.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qpair.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qvector.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qpoint.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qbytearraylist.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qregexp.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qstringmatcher.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qmap.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qtextstream.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qobject.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qobjectdefs_impl.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qobject_impl.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qlocale.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qvariant.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qset.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\sql.o lib\sql.cpp
 
 debug/moc_book.o: debug/moc_book.cpp 

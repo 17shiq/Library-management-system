@@ -3,6 +3,8 @@
 
 #include <QWidget>
 #include <QPushButton>
+#include <QDialog>
+#include <QtDebug>
 #include "book.h"
 
 QT_BEGIN_NAMESPACE
