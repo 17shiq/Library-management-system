@@ -16,8 +16,24 @@ void Sql::init()
     qDebug()<<m_db.open();
 }
 
-void Sql::show_Book()
+QVector<QStringList> Sql::getBook(QString strCondition)
 {
 
+}
+
+void Sql::addBook(QStringList)
+{
 
 }
+
+void Sql::changeBook(QString)
+{
+
+}
+
+void Sql::delBook(QString)
+{
+
+}
+
+

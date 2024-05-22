@@ -19,7 +19,10 @@ public:
     Sql();
     ~Sql();
     void init();
-    void show_Book();
+    QVector<QStringList> getBook(QString strCondition = "");
+    void addBook(QStringList);
+    void changeBook(QString);
+    void delBook(QString);
 
 private:
     QSqlDatabase m_db;

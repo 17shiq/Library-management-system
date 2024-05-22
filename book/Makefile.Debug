@@ -222,8 +222,10 @@ debug/moc_book.cpp: cell/book.h \
 		D:/QT/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
 		D:/QT/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
 		D:/QT/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
-		D:/QT/5.15.2/mingw81_64/include/QtGui/QMouseEvent \
-		D:/QT/5.15.2/mingw81_64/include/QtGui/QMoveEvent \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/QStandardItem \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/qstandarditemmodel.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/qicon.h \
 		debug/moc_predefs.h \
 		D:/QT/5.15.2/mingw81_64/bin/moc.exe
 	D:\QT\5.15.2\mingw81_64\bin\moc.exe $(DEFINES) --include E:/GitHub/project/Library-management-system/book/debug/moc_predefs.h -ID:/QT/5.15.2/mingw81_64/mkspecs/win32-g++ -IE:/GitHub/project/Library-management-system/book -ID:/QT/5.15.2/mingw81_64/include -ID:/QT/5.15.2/mingw81_64/include/QtWidgets -ID:/QT/5.15.2/mingw81_64/include/QtGui -ID:/QT/5.15.2/mingw81_64/include/QtANGLE -ID:/QT/5.15.2/mingw81_64/include/QtSql -ID:/QT/5.15.2/mingw81_64/include/QtCore -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -ID:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include cell\book.h -o debug\moc_book.cpp
@@ -340,8 +342,9 @@ debug/moc_widget.cpp: cell/widget.h \
 		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
 		D:/QT/5.15.2/mingw81_64/include/QtCore/QtDebug \
 		cell/book.h \
-		D:/QT/5.15.2/mingw81_64/include/QtGui/QMouseEvent \
-		D:/QT/5.15.2/mingw81_64/include/QtGui/QMoveEvent \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/QStandardItem \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/qstandarditemmodel.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
 		debug/moc_predefs.h \
 		D:/QT/5.15.2/mingw81_64/bin/moc.exe
 	D:\QT\5.15.2\mingw81_64\bin\moc.exe $(DEFINES) --include E:/GitHub/project/Library-management-system/book/debug/moc_predefs.h -ID:/QT/5.15.2/mingw81_64/mkspecs/win32-g++ -IE:/GitHub/project/Library-management-system/book -ID:/QT/5.15.2/mingw81_64/include -ID:/QT/5.15.2/mingw81_64/include/QtWidgets -ID:/QT/5.15.2/mingw81_64/include/QtGui -ID:/QT/5.15.2/mingw81_64/include/QtANGLE -ID:/QT/5.15.2/mingw81_64/include/QtSql -ID:/QT/5.15.2/mingw81_64/include/QtCore -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -ID:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -ID:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include cell\widget.h -o debug\moc_widget.cpp
@@ -477,9 +480,17 @@ debug/book.o: cell/book.cpp cell/book.h \
 		D:/QT/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
 		D:/QT/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
 		D:/QT/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
-		D:/QT/5.15.2/mingw81_64/include/QtGui/QMouseEvent \
-		D:/QT/5.15.2/mingw81_64/include/QtGui/QMoveEvent \
-		ui_book.h
+		D:/QT/5.15.2/mingw81_64/include/QtGui/QStandardItem \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/qstandarditemmodel.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/qicon.h \
+		ui_book.h \
+		lib/sql.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/QSqlDatabase \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qsqldatabase.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qtsqlglobal.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qtsql-config.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/QtDebug
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\book.o cell\book.cpp
 
 debug/main.o: cell/main.cpp cell/widget.h \
@@ -594,8 +605,14 @@ debug/main.o: cell/main.cpp cell/widget.h \
 		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
 		D:/QT/5.15.2/mingw81_64/include/QtCore/QtDebug \
 		cell/book.h \
-		D:/QT/5.15.2/mingw81_64/include/QtGui/QMouseEvent \
-		D:/QT/5.15.2/mingw81_64/include/QtGui/QMoveEvent \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/QStandardItem \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/qstandarditemmodel.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
+		lib/sql.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/QSqlDatabase \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qsqldatabase.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qtsqlglobal.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qtsql-config.h \
 		D:/QT/5.15.2/mingw81_64/include/QtWidgets/QApplication \
 		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
 		D:/QT/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
@@ -717,8 +734,9 @@ debug/widget.o: cell/widget.cpp cell/widget.h \
 		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
 		D:/QT/5.15.2/mingw81_64/include/QtCore/QtDebug \
 		cell/book.h \
-		D:/QT/5.15.2/mingw81_64/include/QtGui/QMouseEvent \
-		D:/QT/5.15.2/mingw81_64/include/QtGui/QMoveEvent \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/QStandardItem \
+		D:/QT/5.15.2/mingw81_64/include/QtGui/qstandarditemmodel.h \
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
 		ui_widget.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\widget.o cell\widget.cpp
 

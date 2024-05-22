@@ -13,6 +13,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpacerItem>
@@ -27,12 +28,12 @@ public:
     QGridLayout *gridLayout_2;
     QWidget *widget;
     QGridLayout *gridLayout;
-    QPushButton *btn_search;
     QLineEdit *lineEdit;
+    QSpacerItem *horizontalSpacer;
+    QPushButton *btn_del;
     QPushButton *btn_add;
     QPushButton *btn_change;
-    QPushButton *btn_del;
-    QSpacerItem *horizontalSpacer;
+    QLabel *label;
     QTableView *tableView;
 
     void setupUi(QWidget *Book)
@@ -41,7 +42,7 @@ public:
             Book->setObjectName(QString::fromUtf8("Book"));
         Book->resize(790, 571);
         Book->setStyleSheet(QString::fromUtf8("QPushButton[name=\"btn\"]{border:1px solid #dcdfe6;border-radius:4px;font:14px \"\346\245\267\344\275\223\";background-color:white;color:black;min-height:27px;min-width:68px;}\n"
-"QPushButton#btn_search{border:none;border-radius:4px ;font:14px \"\346\245\267\344\275\223\";background-color:white;color:black;min-height:27px;min-width:40px;}\n"
+"QLabel{color:black;font:14px \"\346\245\267\344\275\223\";}\n"
 "QPushButton:pressed{background-color:gray;}\n"
 "\n"
 "QWidget#Book{background-color:white;}\n"
@@ -58,16 +59,20 @@ public:
         gridLayout->setHorizontalSpacing(3);
         gridLayout->setVerticalSpacing(0);
         gridLayout->setContentsMargins(5, 5, 0, 5);
-        btn_search = new QPushButton(widget);
-        btn_search->setObjectName(QString::fromUtf8("btn_search"));
-        btn_search->setCheckable(true);
-
-        gridLayout->addWidget(btn_search, 0, 0, 1, 1);
-
         lineEdit = new QLineEdit(widget);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
 
         gridLayout->addWidget(lineEdit, 0, 1, 1, 1);
+
+        horizontalSpacer = new QSpacerItem(260, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        gridLayout->addItem(horizontalSpacer, 0, 5, 1, 1);
+
+        btn_del = new QPushButton(widget);
+        btn_del->setObjectName(QString::fromUtf8("btn_del"));
+        btn_del->setCheckable(true);
+
+        gridLayout->addWidget(btn_del, 0, 4, 1, 1);
 
         btn_add = new QPushButton(widget);
         btn_add->setObjectName(QString::fromUtf8("btn_add"));
@@ -81,15 +86,10 @@ public:
 
         gridLayout->addWidget(btn_change, 0, 3, 1, 1);
 
-        btn_del = new QPushButton(widget);
-        btn_del->setObjectName(QString::fromUtf8("btn_del"));
-        btn_del->setCheckable(true);
+        label = new QLabel(widget);
+        label->setObjectName(QString::fromUtf8("label"));
 
-        gridLayout->addWidget(btn_del, 0, 4, 1, 1);
-
-        horizontalSpacer = new QSpacerItem(260, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        gridLayout->addItem(horizontalSpacer, 0, 5, 1, 1);
+        gridLayout->addWidget(label, 0, 0, 1, 1);
 
 
         gridLayout_2->addWidget(widget, 0, 0, 1, 1);
@@ -108,14 +108,13 @@ public:
     void retranslateUi(QWidget *Book)
     {
         Book->setWindowTitle(QCoreApplication::translate("Book", "Form", nullptr));
-        btn_search->setText(QCoreApplication::translate("Book", "\346\220\234\347\264\242", nullptr));
-        btn_search->setProperty("name", QVariant(QCoreApplication::translate("Book", "search", nullptr)));
+        btn_del->setText(QCoreApplication::translate("Book", "\345\210\240\351\231\244\345\233\276\344\271\246", nullptr));
+        btn_del->setProperty("name", QVariant(QCoreApplication::translate("Book", "btn", nullptr)));
         btn_add->setText(QCoreApplication::translate("Book", "\346\267\273\345\212\240\345\233\276\344\271\246", nullptr));
         btn_add->setProperty("name", QVariant(QCoreApplication::translate("Book", "btn", nullptr)));
         btn_change->setText(QCoreApplication::translate("Book", "\344\277\256\346\224\271\345\233\276\344\271\246", nullptr));
         btn_change->setProperty("name", QVariant(QCoreApplication::translate("Book", "btn", nullptr)));
-        btn_del->setText(QCoreApplication::translate("Book", "\345\210\240\351\231\244\345\233\276\344\271\246", nullptr));
-        btn_del->setProperty("name", QVariant(QCoreApplication::translate("Book", "btn", nullptr)));
+        label->setText(QCoreApplication::translate("Book", "\346\220\234\347\264\242", nullptr));
     } // retranslateUi
 
 };
