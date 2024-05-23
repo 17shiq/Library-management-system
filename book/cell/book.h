@@ -27,6 +27,8 @@ private slots:
 
     void on_lineEdit_textChanged(const QString &arg1);
 
+    void on_btn_sent_clicked();
+
 private:
     Ui::Book *ui;
     QStandardItemModel m_mode;

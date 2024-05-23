@@ -12,9 +12,3 @@ login::~login()
 {
     delete ui;
 }
-
-void login::on_pushButton_clicked()
-{
-
-}
-

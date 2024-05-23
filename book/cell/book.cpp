@@ -67,7 +67,7 @@ void Book::on_lineEdit_textChanged(const QString &arg1)
 }
 
 
-void Book::on_pushButton_clicked()
+void Book::on_btn_sent_clicked()
 {
 
 }

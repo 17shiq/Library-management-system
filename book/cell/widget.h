@@ -6,6 +6,7 @@
 #include <QDialog>
 #include <QtDebug>
 #include "book.h"
+#include "appointed.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
@@ -24,5 +25,6 @@ public:
 private:
     Ui::Widget *ui;
     Book *book;
+    appointed *appo;
 };
 #endif // WIDGET_H

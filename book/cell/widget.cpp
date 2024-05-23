@@ -19,9 +19,13 @@ Widget::~Widget()
 void Widget::init()
 {
     //先实例化页面对象，然后添加到stackedwidget中
+    //图书页面
     book = new Book(this);
-
     ui->stackedWidget->addWidget(book);
+
+    //会议记录表
+    appo = new appointed(this);
+    ui->stackedWidget->addWidget(appo);
 
     //登录之后首先显示的页面
     ui->stackedWidget->setCurrentIndex(0);
@@ -40,6 +44,7 @@ void Widget::init()
 //槽函数，点击主窗口左边的按钮时，进行页面的切换
 void Widget::change(){
     QString str = sender()->objectName();
+
     do{
         if("btn_book" == str){
             book->initPage();
@@ -63,5 +68,23 @@ void Widget::change(){
             break;
         }
     }while(true);
+
+    if("btn_book" == str){
+        //book->initPage();
+        ui->stackedWidget->setCurrentIndex(0);
+    }
+    if("btn_user" == str){
+        ui->stackedWidget->setCurrentIndex(4);
+    }
+    if("btn_sent" == str){
+        ui->stackedWidget->setCurrentIndex(2);
+    }
+    if("btn_meeting" == str){
+        ui->stackedWidget->setCurrentIndex(3);
+    }
+    if("btn_record" == str){
+        ui->stackedWidget->setCurrentIndex(1);
+    }
+
 }
 
