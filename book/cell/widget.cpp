@@ -22,6 +22,9 @@ void Widget::init()
     book = new Book(this);
     ui->stackedWidget->addWidget(book);
 
+    appo = new appointed(this);
+    ui->stackedWidget->addWidget(appo);
+
     //登录之后首先显示的页面
     ui->stackedWidget->setCurrentIndex(0);
 
@@ -40,11 +43,11 @@ void Widget::init()
 void Widget::change(){
     QString str = sender()->objectName();
     if("btn_book" == str){
-        book->initPage();
-        ui->stackedWidget->setCurrentIndex(1);
+        //book->initPage();
+        ui->stackedWidget->setCurrentIndex(0);
     }
     if("btn_user" == str){
-        ui->stackedWidget->setCurrentIndex(0);
+        ui->stackedWidget->setCurrentIndex(4);
     }
     if("btn_sent" == str){
         ui->stackedWidget->setCurrentIndex(2);
@@ -53,7 +56,7 @@ void Widget::change(){
         ui->stackedWidget->setCurrentIndex(3);
     }
     if("btn_record" == str){
-        ui->stackedWidget->setCurrentIndex(4);
+        ui->stackedWidget->setCurrentIndex(1);
     }
 
 }
