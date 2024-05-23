@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QStandardItem>
+#include <QMessageBox>
 
 namespace Ui {
 class Book;
@@ -26,9 +27,11 @@ private slots:
 
     void on_lineEdit_textChanged(const QString &arg1);
 
+    void on_btn_sent_clicked();
+
 private:
     Ui::Book *ui;
-    QStandardItemModel m_db;
+    QStandardItemModel m_mode;
 };
 
 #endif // BOOK_H

@@ -1,0 +1,14 @@
+release/book.o
+release/login.o
+release/main.o
+release/reservation.o
+release/user.o
+release/user_page.o
+release/widget.o
+release/sql.o
+release/moc_book.o
+release/moc_login.o
+release/moc_reservation.o
+release/moc_user.o
+release/moc_user_page.o
+release/moc_widget.o

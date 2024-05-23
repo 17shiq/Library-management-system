@@ -139,6 +139,9 @@ QWidget#QStackedWidget{background-color:white;}
         <property name="checkable">
          <bool>true</bool>
         </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
         <property name="Size" stdset="0">
          <string>btn</string>
         </property>
@@ -162,7 +165,7 @@ QWidget#QStackedWidget{background-color:white;}
          <bool>true</bool>
         </property>
         <property name="checked">
-         <bool>true</bool>
+         <bool>false</bool>
         </property>
         <property name="Size" stdset="0">
          <string>btn</string>

@@ -15,7 +15,6 @@ public:
     explicit appointed(QWidget *parent = nullptr);
     ~appointed();
 
-
 private:
     Ui::appointed *ui;
 };

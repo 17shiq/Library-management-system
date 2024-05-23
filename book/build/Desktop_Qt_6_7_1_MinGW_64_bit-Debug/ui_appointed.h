@@ -23,12 +23,12 @@ class Ui_appointed
 {
 public:
     QWidget *widget;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton;
     QTableView *tableView;
     QLabel *label_7;
     QTableView *tableView_2;
     QLabel *label_8;
+    QPushButton *pushButton;
+    QPushButton *pushButton_2;
 
     void setupUi(QWidget *appointed)
     {
@@ -38,14 +38,6 @@ public:
         widget = new QWidget(appointed);
         widget->setObjectName("widget");
         widget->setGeometry(QRect(10, 10, 811, 601));
-        pushButton_2 = new QPushButton(widget);
-        pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(460, 530, 101, 41));
-        pushButton_2->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 255, 255);"));
-        pushButton = new QPushButton(widget);
-        pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(170, 530, 101, 41));
-        pushButton->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 255, 255);"));
         tableView = new QTableView(widget);
         tableView->setObjectName("tableView");
         tableView->setGeometry(QRect(30, 250, 681, 251));
@@ -60,6 +52,16 @@ public:
         label_8->setObjectName("label_8");
         label_8->setGeometry(QRect(20, 220, 91, 20));
         label_8->setStyleSheet(QString::fromUtf8("font: 700 9pt \"Microsoft YaHei UI\";"));
+        pushButton = new QPushButton(widget);
+        pushButton->setObjectName("pushButton");
+        pushButton->setGeometry(QRect(180, 530, 111, 41));
+        pushButton->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 255, 255);\n"
+"font: 700 9pt \"Microsoft YaHei UI\";"));
+        pushButton_2 = new QPushButton(widget);
+        pushButton_2->setObjectName("pushButton_2");
+        pushButton_2->setGeometry(QRect(410, 530, 111, 41));
+        pushButton_2->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 255, 255);\n"
+"font: 700 9pt \"Microsoft YaHei UI\";"));
 
         retranslateUi(appointed);
 
@@ -69,10 +71,10 @@ public:
     void retranslateUi(QWidget *appointed)
     {
         appointed->setWindowTitle(QCoreApplication::translate("appointed", "Form", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("appointed", "\346\222\244\345\233\236\351\242\204\347\272\246", nullptr));
-        pushButton->setText(QCoreApplication::translate("appointed", "\351\242\204\347\272\246", nullptr));
         label_7->setText(QCoreApplication::translate("appointed", "\344\274\232\350\256\256\345\256\244\351\242\204\347\272\246", nullptr));
         label_8->setText(QCoreApplication::translate("appointed", "\351\242\204\347\272\246\350\256\260\345\275\225", nullptr));
+        pushButton->setText(QCoreApplication::translate("appointed", "\351\242\204\347\272\246", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("appointed", "\346\222\244\345\233\236\351\242\204\347\272\246", nullptr));
     } // retranslateUi
 
 };

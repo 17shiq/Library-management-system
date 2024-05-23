@@ -28,12 +28,13 @@ public:
     QGridLayout *gridLayout_2;
     QWidget *widget;
     QGridLayout *gridLayout;
-    QLineEdit *lineEdit;
-    QSpacerItem *horizontalSpacer;
     QPushButton *btn_del;
-    QPushButton *btn_add;
-    QPushButton *btn_change;
     QLabel *label;
+    QPushButton *btn_add;
+    QSpacerItem *horizontalSpacer;
+    QLineEdit *lineEdit;
+    QPushButton *btn_change;
+    QPushButton *btn_sent;
     QTableView *tableView;
 
     void setupUi(QWidget *Book)
@@ -59,20 +60,16 @@ public:
         gridLayout->setHorizontalSpacing(3);
         gridLayout->setVerticalSpacing(0);
         gridLayout->setContentsMargins(5, 5, 0, 5);
-        lineEdit = new QLineEdit(widget);
-        lineEdit->setObjectName("lineEdit");
-
-        gridLayout->addWidget(lineEdit, 0, 1, 1, 1);
-
-        horizontalSpacer = new QSpacerItem(260, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
-
-        gridLayout->addItem(horizontalSpacer, 0, 5, 1, 1);
-
         btn_del = new QPushButton(widget);
         btn_del->setObjectName("btn_del");
         btn_del->setCheckable(true);
 
         gridLayout->addWidget(btn_del, 0, 4, 1, 1);
+
+        label = new QLabel(widget);
+        label->setObjectName("label");
+
+        gridLayout->addWidget(label, 0, 0, 1, 1);
 
         btn_add = new QPushButton(widget);
         btn_add->setObjectName("btn_add");
@@ -80,16 +77,25 @@ public:
 
         gridLayout->addWidget(btn_add, 0, 2, 1, 1);
 
+        horizontalSpacer = new QSpacerItem(260, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+
+        gridLayout->addItem(horizontalSpacer, 0, 6, 1, 1);
+
+        lineEdit = new QLineEdit(widget);
+        lineEdit->setObjectName("lineEdit");
+
+        gridLayout->addWidget(lineEdit, 0, 1, 1, 1);
+
         btn_change = new QPushButton(widget);
         btn_change->setObjectName("btn_change");
         btn_change->setCheckable(true);
 
         gridLayout->addWidget(btn_change, 0, 3, 1, 1);
 
-        label = new QLabel(widget);
-        label->setObjectName("label");
+        btn_sent = new QPushButton(widget);
+        btn_sent->setObjectName("btn_sent");
 
-        gridLayout->addWidget(label, 0, 0, 1, 1);
+        gridLayout->addWidget(btn_sent, 0, 5, 1, 1);
 
 
         gridLayout_2->addWidget(widget, 0, 0, 1, 1);
@@ -110,11 +116,13 @@ public:
         Book->setWindowTitle(QCoreApplication::translate("Book", "Form", nullptr));
         btn_del->setText(QCoreApplication::translate("Book", "\345\210\240\351\231\244\345\233\276\344\271\246", nullptr));
         btn_del->setProperty("name", QVariant(QCoreApplication::translate("Book", "btn", nullptr)));
+        label->setText(QCoreApplication::translate("Book", "\346\220\234\347\264\242", nullptr));
         btn_add->setText(QCoreApplication::translate("Book", "\346\267\273\345\212\240\345\233\276\344\271\246", nullptr));
         btn_add->setProperty("name", QVariant(QCoreApplication::translate("Book", "btn", nullptr)));
         btn_change->setText(QCoreApplication::translate("Book", "\344\277\256\346\224\271\345\233\276\344\271\246", nullptr));
         btn_change->setProperty("name", QVariant(QCoreApplication::translate("Book", "btn", nullptr)));
-        label->setText(QCoreApplication::translate("Book", "\346\220\234\347\264\242", nullptr));
+        btn_sent->setText(QCoreApplication::translate("Book", "\345\200\237\351\230\205", nullptr));
+        btn_sent->setProperty("name", QVariant(QCoreApplication::translate("Book", "btn", nullptr)));
     } // retranslateUi
 
 };

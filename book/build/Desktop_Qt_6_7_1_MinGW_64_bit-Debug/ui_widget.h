@@ -96,6 +96,7 @@ public:
         sizePolicy.setHeightForWidth(btn_book->sizePolicy().hasHeightForWidth());
         btn_book->setSizePolicy(sizePolicy);
         btn_book->setCheckable(true);
+        btn_book->setChecked(true);
 
         gridLayout->addWidget(btn_book, 1, 0, 1, 1);
 
@@ -105,7 +106,7 @@ public:
         sizePolicy.setHeightForWidth(btn_user->sizePolicy().hasHeightForWidth());
         btn_user->setSizePolicy(sizePolicy);
         btn_user->setCheckable(true);
-        btn_user->setChecked(true);
+        btn_user->setChecked(false);
 
         gridLayout->addWidget(btn_user, 0, 0, 1, 1);
 
