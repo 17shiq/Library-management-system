@@ -2,9 +2,13 @@ debug/appointed.o
 debug/book.o
 debug/login.o
 debug/main.o
+debug/user.o
+debug/user_page.o
 debug/widget.o
 debug/sql.o
 debug/moc_appointed.o
 debug/moc_book.o
 debug/moc_login.o
+debug/moc_user.o
+debug/moc_user_page.o
 debug/moc_widget.o

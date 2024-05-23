@@ -3,7 +3,7 @@
 
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
-    , ui(new Ui::Widget),book(nullptr)
+    , ui(new Ui::Widget),book(nullptr),userpage(nullptr)
 {
     ui->setupUi(this);
     init();
@@ -19,10 +19,16 @@ Widget::~Widget()
 void Widget::init()
 {
     //先实例化页面对象，然后添加到stackedwidget中
+    //用户管理页面
+    //userpage = new user(this);
+    //ui->stackedWidget->addWidget(userpage);
+    //先实例化页面对象，然后添加到stackedwidget中
     //图书页面
     book = new Book(this);
     ui->stackedWidget->addWidget(book);
-
+    //用户管理页面
+    userpage = new user(this);
+    ui->stackedWidget->addWidget(userpage);
     //会议记录表
     appo = new appointed(this);
     ui->stackedWidget->addWidget(appo);
