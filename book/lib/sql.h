@@ -3,6 +3,9 @@
 
 #include <QSqlDatabase>
 #include <QtDebug>
+#include <QSqlQuery>
+#include <QSqlError>
+#include <QSqlRecord>
 
 class Sql
 {

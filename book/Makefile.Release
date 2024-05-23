@@ -490,7 +490,13 @@ release/book.o: cell/book.cpp cell/book.h \
 		D:/QT/5.15.2/mingw81_64/include/QtSql/qsqldatabase.h \
 		D:/QT/5.15.2/mingw81_64/include/QtSql/qtsqlglobal.h \
 		D:/QT/5.15.2/mingw81_64/include/QtSql/qtsql-config.h \
-		D:/QT/5.15.2/mingw81_64/include/QtCore/QtDebug
+		D:/QT/5.15.2/mingw81_64/include/QtCore/QtDebug \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/QSqlQuery \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qsqlquery.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/QSqlError \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qsqlerror.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/QSqlRecord \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qsqlrecord.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\book.o cell\book.cpp
 
 release/main.o: cell/main.cpp cell/widget.h \
@@ -613,6 +619,12 @@ release/main.o: cell/main.cpp cell/widget.h \
 		D:/QT/5.15.2/mingw81_64/include/QtSql/qsqldatabase.h \
 		D:/QT/5.15.2/mingw81_64/include/QtSql/qtsqlglobal.h \
 		D:/QT/5.15.2/mingw81_64/include/QtSql/qtsql-config.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/QSqlQuery \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qsqlquery.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/QSqlError \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qsqlerror.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/QSqlRecord \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qsqlrecord.h \
 		D:/QT/5.15.2/mingw81_64/include/QtWidgets/QApplication \
 		D:/QT/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
 		D:/QT/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
@@ -809,7 +821,13 @@ release/sql.o: lib/sql.cpp lib/sql.h \
 		D:/QT/5.15.2/mingw81_64/include/QtCore/qset.h \
 		D:/QT/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
 		D:/QT/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
-		D:/QT/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h
+		D:/QT/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/QSqlQuery \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qsqlquery.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/QSqlError \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qsqlerror.h \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/QSqlRecord \
+		D:/QT/5.15.2/mingw81_64/include/QtSql/qsqlrecord.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\sql.o lib\sql.cpp
 
 release/moc_book.o: release/moc_book.cpp 

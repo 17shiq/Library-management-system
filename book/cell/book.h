@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QStandardItem>
+#include <QMessageBox>
 
 namespace Ui {
 class Book;
@@ -28,7 +29,7 @@ private slots:
 
 private:
     Ui::Book *ui;
-    QStandardItemModel m_db;
+    QStandardItemModel m_mode;
 };
 
 #endif // BOOK_H

@@ -59,22 +59,6 @@ QLineEdit{background-color:white;min-height:22px;min-width:210px;}</string>
       <property name="verticalSpacing">
        <number>0</number>
       </property>
-      <item row="0" column="1">
-       <widget class="QLineEdit" name="lineEdit"/>
-      </item>
-      <item row="0" column="5">
-       <spacer name="horizontalSpacer">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>260</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
       <item row="0" column="4">
        <widget class="QPushButton" name="btn_del">
         <property name="text">
@@ -85,6 +69,13 @@ QLineEdit{background-color:white;min-height:22px;min-width:210px;}</string>
         </property>
         <property name="name" stdset="0">
          <string>btn</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>搜索</string>
         </property>
        </widget>
       </item>
@@ -101,6 +92,22 @@ QLineEdit{background-color:white;min-height:22px;min-width:210px;}</string>
         </property>
        </widget>
       </item>
+      <item row="0" column="6">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>260</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="lineEdit"/>
+      </item>
       <item row="0" column="3">
        <widget class="QPushButton" name="btn_change">
         <property name="text">
@@ -114,10 +121,13 @@ QLineEdit{background-color:white;min-height:22px;min-width:210px;}</string>
         </property>
        </widget>
       </item>
-      <item row="0" column="0">
-       <widget class="QLabel" name="label">
+      <item row="0" column="5">
+       <widget class="QPushButton" name="pushButton">
         <property name="text">
-         <string>搜索</string>
+         <string>借阅</string>
+        </property>
+        <property name="name" stdset="0">
+         <string>btn</string>
         </property>
        </widget>
       </item>
