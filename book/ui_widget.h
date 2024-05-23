@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'widget.ui'
 **
-** Created by: Qt User Interface Compiler version 5.15.2
+** Created by: Qt User Interface Compiler version 6.6.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -38,7 +38,7 @@ public:
     void setupUi(QWidget *Widget)
     {
         if (Widget->objectName().isEmpty())
-            Widget->setObjectName(QString::fromUtf8("Widget"));
+            Widget->setObjectName("Widget");
         Widget->resize(712, 461);
         Widget->setStyleSheet(QString::fromUtf8("QToolButton[Size=\"btn\"]{color:white;font:14px '\351\273\221\344\275\223';min-height:32px;min-width:100px;border-radius:4px;background-color:rgb(84,92,100);}\n"
 "QWidget#cell_main{background-color:rgb(84,92,100);}\n"
@@ -49,21 +49,21 @@ public:
 ""));
         gridLayout_2 = new QGridLayout(Widget);
         gridLayout_2->setSpacing(0);
-        gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
+        gridLayout_2->setObjectName("gridLayout_2");
         gridLayout_2->setContentsMargins(0, 0, 0, 0);
         cell_main = new QWidget(Widget);
-        cell_main->setObjectName(QString::fromUtf8("cell_main"));
+        cell_main->setObjectName("cell_main");
         cell_main->setStyleSheet(QString::fromUtf8("QToolButton:checked{background-color:rgb(67,74,80);}"));
         gridLayout = new QGridLayout(cell_main);
         gridLayout->setSpacing(0);
-        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
+        gridLayout->setObjectName("gridLayout");
         gridLayout->setContentsMargins(0, 0, 0, 0);
         btn_record = new QToolButton(cell_main);
         buttonGroup = new QButtonGroup(Widget);
-        buttonGroup->setObjectName(QString::fromUtf8("buttonGroup"));
+        buttonGroup->setObjectName("buttonGroup");
         buttonGroup->addButton(btn_record);
-        btn_record->setObjectName(QString::fromUtf8("btn_record"));
-        QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
+        btn_record->setObjectName("btn_record");
+        QSizePolicy sizePolicy(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(btn_record->sizePolicy().hasHeightForWidth());
@@ -74,7 +74,7 @@ public:
 
         btn_sent = new QToolButton(cell_main);
         buttonGroup->addButton(btn_sent);
-        btn_sent->setObjectName(QString::fromUtf8("btn_sent"));
+        btn_sent->setObjectName("btn_sent");
         sizePolicy.setHeightForWidth(btn_sent->sizePolicy().hasHeightForWidth());
         btn_sent->setSizePolicy(sizePolicy);
         btn_sent->setCheckable(true);
@@ -83,7 +83,7 @@ public:
 
         btn_meeting = new QToolButton(cell_main);
         buttonGroup->addButton(btn_meeting);
-        btn_meeting->setObjectName(QString::fromUtf8("btn_meeting"));
+        btn_meeting->setObjectName("btn_meeting");
         sizePolicy.setHeightForWidth(btn_meeting->sizePolicy().hasHeightForWidth());
         btn_meeting->setSizePolicy(sizePolicy);
         btn_meeting->setCheckable(true);
@@ -92,7 +92,7 @@ public:
 
         btn_book = new QToolButton(cell_main);
         buttonGroup->addButton(btn_book);
-        btn_book->setObjectName(QString::fromUtf8("btn_book"));
+        btn_book->setObjectName("btn_book");
         sizePolicy.setHeightForWidth(btn_book->sizePolicy().hasHeightForWidth());
         btn_book->setSizePolicy(sizePolicy);
         btn_book->setCheckable(true);
@@ -102,7 +102,7 @@ public:
 
         btn_user = new QToolButton(cell_main);
         buttonGroup->addButton(btn_user);
-        btn_user->setObjectName(QString::fromUtf8("btn_user"));
+        btn_user->setObjectName("btn_user");
         sizePolicy.setHeightForWidth(btn_user->sizePolicy().hasHeightForWidth());
         btn_user->setSizePolicy(sizePolicy);
         btn_user->setCheckable(true);
@@ -110,7 +110,7 @@ public:
 
         gridLayout->addWidget(btn_user, 0, 0, 1, 1);
 
-        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
 
         gridLayout->addItem(verticalSpacer, 5, 0, 1, 1);
 
@@ -118,7 +118,7 @@ public:
         gridLayout_2->addWidget(cell_main, 0, 0, 1, 1);
 
         stackedWidget = new QStackedWidget(Widget);
-        stackedWidget->setObjectName(QString::fromUtf8("stackedWidget"));
+        stackedWidget->setObjectName("stackedWidget");
 
         gridLayout_2->addWidget(stackedWidget, 0, 1, 1, 1);
 
