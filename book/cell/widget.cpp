@@ -20,6 +20,7 @@ void Widget::init()
 {
     //先实例化页面对象，然后添加到stackedwidget中
     book = new Book(this);
+
     ui->stackedWidget->addWidget(book);
 
     //登录之后首先显示的页面
