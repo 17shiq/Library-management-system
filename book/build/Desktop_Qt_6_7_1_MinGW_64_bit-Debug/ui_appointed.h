@@ -11,14 +11,10 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QDateEdit>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
-#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QTableView>
-#include <QtWidgets/QTableWidget>
-#include <QtWidgets/QTimeEdit>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -26,94 +22,44 @@ QT_BEGIN_NAMESPACE
 class Ui_appointed
 {
 public:
-    QTableWidget *message_show;
-    QTableView *tableView;
-    QLabel *label;
-    QLabel *label_2;
-    QLabel *label_3;
-    QLabel *label_4;
-    QLabel *label_5;
-    QLabel *label_6;
-    QLineEdit *ap_BianHao;
-    QLineEdit *ap_phone;
-    QLineEdit *ap_door;
-    QTimeEdit *ap_sta_time;
-    QTimeEdit *ap_end_time;
-    QDateEdit *ap_data;
-    QPushButton *pushButton;
+    QWidget *widget;
     QPushButton *pushButton_2;
+    QPushButton *pushButton;
+    QTableView *tableView;
+    QLabel *label_7;
+    QTableView *tableView_2;
+    QLabel *label_8;
 
     void setupUi(QWidget *appointed)
     {
         if (appointed->objectName().isEmpty())
             appointed->setObjectName("appointed");
-        appointed->resize(817, 600);
-        message_show = new QTableWidget(appointed);
-        if (message_show->columnCount() < 6)
-            message_show->setColumnCount(6);
-        QTableWidgetItem *__qtablewidgetitem = new QTableWidgetItem();
-        message_show->setHorizontalHeaderItem(0, __qtablewidgetitem);
-        QTableWidgetItem *__qtablewidgetitem1 = new QTableWidgetItem();
-        message_show->setHorizontalHeaderItem(1, __qtablewidgetitem1);
-        QTableWidgetItem *__qtablewidgetitem2 = new QTableWidgetItem();
-        message_show->setHorizontalHeaderItem(2, __qtablewidgetitem2);
-        QTableWidgetItem *__qtablewidgetitem3 = new QTableWidgetItem();
-        message_show->setHorizontalHeaderItem(3, __qtablewidgetitem3);
-        QTableWidgetItem *__qtablewidgetitem4 = new QTableWidgetItem();
-        message_show->setHorizontalHeaderItem(4, __qtablewidgetitem4);
-        QTableWidgetItem *__qtablewidgetitem5 = new QTableWidgetItem();
-        message_show->setHorizontalHeaderItem(5, __qtablewidgetitem5);
-        if (message_show->rowCount() < 5)
-            message_show->setRowCount(5);
-        message_show->setObjectName("message_show");
-        message_show->setGeometry(QRect(60, 20, 511, 231));
-        tableView = new QTableView(appointed);
-        tableView->setObjectName("tableView");
-        tableView->setGeometry(QRect(60, 280, 681, 221));
-        label = new QLabel(appointed);
-        label->setObjectName("label");
-        label->setGeometry(QRect(600, 40, 69, 19));
-        label_2 = new QLabel(appointed);
-        label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(600, 80, 69, 19));
-        label_3 = new QLabel(appointed);
-        label_3->setObjectName("label_3");
-        label_3->setGeometry(QRect(600, 110, 71, 21));
-        label_4 = new QLabel(appointed);
-        label_4->setObjectName("label_4");
-        label_4->setGeometry(QRect(620, 150, 69, 19));
-        label_5 = new QLabel(appointed);
-        label_5->setObjectName("label_5");
-        label_5->setGeometry(QRect(600, 180, 69, 19));
-        label_6 = new QLabel(appointed);
-        label_6->setObjectName("label_6");
-        label_6->setGeometry(QRect(600, 210, 69, 19));
-        ap_BianHao = new QLineEdit(appointed);
-        ap_BianHao->setObjectName("ap_BianHao");
-        ap_BianHao->setGeometry(QRect(660, 150, 113, 21));
-        ap_phone = new QLineEdit(appointed);
-        ap_phone->setObjectName("ap_phone");
-        ap_phone->setGeometry(QRect(660, 180, 113, 21));
-        ap_door = new QLineEdit(appointed);
-        ap_door->setObjectName("ap_door");
-        ap_door->setGeometry(QRect(660, 210, 113, 21));
-        ap_sta_time = new QTimeEdit(appointed);
-        ap_sta_time->setObjectName("ap_sta_time");
-        ap_sta_time->setGeometry(QRect(660, 80, 118, 21));
-        ap_end_time = new QTimeEdit(appointed);
-        ap_end_time->setObjectName("ap_end_time");
-        ap_end_time->setGeometry(QRect(660, 110, 118, 21));
-        ap_data = new QDateEdit(appointed);
-        ap_data->setObjectName("ap_data");
-        ap_data->setGeometry(QRect(660, 40, 121, 20));
-        pushButton = new QPushButton(appointed);
-        pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(180, 530, 101, 41));
-        pushButton->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 255, 255);"));
-        pushButton_2 = new QPushButton(appointed);
+        appointed->resize(829, 624);
+        widget = new QWidget(appointed);
+        widget->setObjectName("widget");
+        widget->setGeometry(QRect(10, 10, 811, 601));
+        pushButton_2 = new QPushButton(widget);
         pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(470, 530, 101, 41));
+        pushButton_2->setGeometry(QRect(460, 530, 101, 41));
         pushButton_2->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 255, 255);"));
+        pushButton = new QPushButton(widget);
+        pushButton->setObjectName("pushButton");
+        pushButton->setGeometry(QRect(170, 530, 101, 41));
+        pushButton->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 255, 255);"));
+        tableView = new QTableView(widget);
+        tableView->setObjectName("tableView");
+        tableView->setGeometry(QRect(30, 250, 681, 251));
+        label_7 = new QLabel(widget);
+        label_7->setObjectName("label_7");
+        label_7->setGeometry(QRect(10, 10, 91, 19));
+        label_7->setStyleSheet(QString::fromUtf8("font: 700 9pt \"Microsoft YaHei UI\";"));
+        tableView_2 = new QTableView(widget);
+        tableView_2->setObjectName("tableView_2");
+        tableView_2->setGeometry(QRect(30, 30, 681, 181));
+        label_8 = new QLabel(widget);
+        label_8->setObjectName("label_8");
+        label_8->setGeometry(QRect(20, 220, 91, 20));
+        label_8->setStyleSheet(QString::fromUtf8("font: 700 9pt \"Microsoft YaHei UI\";"));
 
         retranslateUi(appointed);
 
@@ -123,26 +69,10 @@ public:
     void retranslateUi(QWidget *appointed)
     {
         appointed->setWindowTitle(QCoreApplication::translate("appointed", "Form", nullptr));
-        QTableWidgetItem *___qtablewidgetitem = message_show->horizontalHeaderItem(0);
-        ___qtablewidgetitem->setText(QCoreApplication::translate("appointed", "\351\227\250\347\211\214\345\217\267", nullptr));
-        QTableWidgetItem *___qtablewidgetitem1 = message_show->horizontalHeaderItem(1);
-        ___qtablewidgetitem1->setText(QCoreApplication::translate("appointed", "\347\212\266\346\200\201", nullptr));
-        QTableWidgetItem *___qtablewidgetitem2 = message_show->horizontalHeaderItem(2);
-        ___qtablewidgetitem2->setText(QCoreApplication::translate("appointed", "\345\256\271\347\272\263\344\272\272\346\225\260", nullptr));
-        QTableWidgetItem *___qtablewidgetitem3 = message_show->horizontalHeaderItem(3);
-        ___qtablewidgetitem3->setText(QCoreApplication::translate("appointed", "\345\274\200\346\224\276\346\227\266\351\227\264", nullptr));
-        QTableWidgetItem *___qtablewidgetitem4 = message_show->horizontalHeaderItem(4);
-        ___qtablewidgetitem4->setText(QCoreApplication::translate("appointed", "\345\205\263\351\227\255\346\227\266\351\227\264", nullptr));
-        QTableWidgetItem *___qtablewidgetitem5 = message_show->horizontalHeaderItem(5);
-        ___qtablewidgetitem5->setText(QCoreApplication::translate("appointed", "\346\212\225\345\275\261\344\273\252", nullptr));
-        label->setText(QCoreApplication::translate("appointed", "\351\242\204\347\272\246\346\227\245\346\234\237", nullptr));
-        label_2->setText(QCoreApplication::translate("appointed", "\351\242\204\347\272\246\346\227\266\351\227\264", nullptr));
-        label_3->setText(QCoreApplication::translate("appointed", "\347\273\223\346\235\237\346\227\266\351\227\264", nullptr));
-        label_4->setText(QCoreApplication::translate("appointed", "\347\274\226\345\217\267", nullptr));
-        label_5->setText(QCoreApplication::translate("appointed", "\350\201\224\347\263\273\347\224\265\350\257\235", nullptr));
-        label_6->setText(QCoreApplication::translate("appointed", "\351\227\250\347\211\214\345\217\267", nullptr));
-        pushButton->setText(QCoreApplication::translate("appointed", "\351\242\204\347\272\246", nullptr));
         pushButton_2->setText(QCoreApplication::translate("appointed", "\346\222\244\345\233\236\351\242\204\347\272\246", nullptr));
+        pushButton->setText(QCoreApplication::translate("appointed", "\351\242\204\347\272\246", nullptr));
+        label_7->setText(QCoreApplication::translate("appointed", "\344\274\232\350\256\256\345\256\244\351\242\204\347\272\246", nullptr));
+        label_8->setText(QCoreApplication::translate("appointed", "\351\242\204\347\272\246\350\256\260\345\275\225", nullptr));
     } // retranslateUi
 
 };

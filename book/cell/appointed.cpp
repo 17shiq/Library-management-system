@@ -2,6 +2,7 @@
 #include "qabstractitemview.h"
 #include "ui_appointed.h"
 
+
 appointed::appointed(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::appointed)
@@ -15,3 +16,5 @@ appointed::~appointed()
 {
     delete ui;
 }
+
+
