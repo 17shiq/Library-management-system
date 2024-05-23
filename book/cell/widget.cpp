@@ -26,6 +26,10 @@ void Widget::init()
     //会议记录表
     appo = new appointed(this);
     ui->stackedWidget->addWidget(appo);
+    //借阅管理
+    record =new Record(this);
+    ui->stackedWidget->addWidget(record);
+
 
     //登录之后首先显示的页面
     ui->stackedWidget->setCurrentIndex(0);

@@ -7,6 +7,7 @@
 #include <QtDebug>
 #include "book.h"
 #include "appointed.h"
+#include "record.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
@@ -26,5 +27,6 @@ private:
     Ui::Widget *ui;
     Book *book;
     appointed *appo;
+    Record *record;
 };
 #endif // WIDGET_H
