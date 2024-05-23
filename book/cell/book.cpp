@@ -45,7 +45,7 @@ void Book::on_btn_change_clicked()
 
 }
 
-//
+//删除图书
 void Book::on_btn_del_clicked()
 {
     int r = ui->tableView->currentIndex().row();
