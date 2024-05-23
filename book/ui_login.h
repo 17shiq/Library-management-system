@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'login.ui'
 **
-** Created by: Qt User Interface Compiler version 6.6.3
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -45,22 +45,22 @@ public:
     void setupUi(QDialog *login)
     {
         if (login->objectName().isEmpty())
-            login->setObjectName("login");
+            login->setObjectName(QString::fromUtf8("login"));
         login->resize(683, 487);
         gridLayout = new QGridLayout(login);
         gridLayout->setSpacing(0);
-        gridLayout->setObjectName("gridLayout");
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(0, 0, 0, 0);
         widget = new QWidget(login);
-        widget->setObjectName("widget");
+        widget->setObjectName(QString::fromUtf8("widget"));
         gridLayout_2 = new QGridLayout(widget);
-        gridLayout_2->setObjectName("gridLayout_2");
+        gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
         widget_2 = new QWidget(widget);
-        widget_2->setObjectName("widget_2");
+        widget_2->setObjectName(QString::fromUtf8("widget_2"));
         gridLayout_4 = new QGridLayout(widget_2);
-        gridLayout_4->setObjectName("gridLayout_4");
+        gridLayout_4->setObjectName(QString::fromUtf8("gridLayout_4"));
         label = new QLabel(widget_2);
-        label->setObjectName("label");
+        label->setObjectName(QString::fromUtf8("label"));
         QFont font;
         font.setPointSize(20);
         label->setFont(font);
@@ -72,26 +72,26 @@ public:
         gridLayout_2->addWidget(widget_2, 0, 0, 1, 1);
 
         widget_4 = new QWidget(widget);
-        widget_4->setObjectName("widget_4");
+        widget_4->setObjectName(QString::fromUtf8("widget_4"));
         gridLayout_5 = new QGridLayout(widget_4);
-        gridLayout_5->setObjectName("gridLayout_5");
+        gridLayout_5->setObjectName(QString::fromUtf8("gridLayout_5"));
         pushButton_2 = new QPushButton(widget_4);
-        pushButton_2->setObjectName("pushButton_2");
+        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
 
         gridLayout_5->addWidget(pushButton_2, 3, 1, 1, 1);
 
         checkBox_2 = new QCheckBox(widget_4);
-        checkBox_2->setObjectName("checkBox_2");
+        checkBox_2->setObjectName(QString::fromUtf8("checkBox_2"));
 
         gridLayout_5->addWidget(checkBox_2, 1, 1, 1, 1);
 
         pushButton = new QPushButton(widget_4);
-        pushButton->setObjectName("pushButton");
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
 
         gridLayout_5->addWidget(pushButton, 3, 0, 1, 1);
 
         checkBox = new QCheckBox(widget_4);
-        checkBox->setObjectName("checkBox");
+        checkBox->setObjectName(QString::fromUtf8("checkBox"));
 
         gridLayout_5->addWidget(checkBox, 1, 0, 1, 1);
 
@@ -99,19 +99,19 @@ public:
         gridLayout_2->addWidget(widget_4, 2, 0, 1, 1);
 
         widget_3 = new QWidget(widget);
-        widget_3->setObjectName("widget_3");
+        widget_3->setObjectName(QString::fromUtf8("widget_3"));
         label_2 = new QLabel(widget_3);
-        label_2->setObjectName("label_2");
+        label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(230, 40, 45, 19));
         label_3 = new QLabel(widget_3);
-        label_3->setObjectName("label_3");
+        label_3->setObjectName(QString::fromUtf8("label_3"));
         label_3->setGeometry(QRect(250, 80, 30, 19));
         lineEdit = new QLineEdit(widget_3);
-        lineEdit->setObjectName("lineEdit");
+        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
         lineEdit->setGeometry(QRect(290, 40, 171, 25));
         lineEdit->setMaximumSize(QSize(300, 16777215));
         lineEdit_2 = new QLineEdit(widget_3);
-        lineEdit_2->setObjectName("lineEdit_2");
+        lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
         lineEdit_2->setGeometry(QRect(290, 80, 171, 25));
         lineEdit_2->setMaximumSize(QSize(300, 16777215));
 

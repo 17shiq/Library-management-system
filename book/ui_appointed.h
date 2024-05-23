@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'appointed.ui'
 **
-** Created by: Qt User Interface Compiler version 6.6.3
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -46,7 +46,7 @@ public:
     void setupUi(QWidget *appointed)
     {
         if (appointed->objectName().isEmpty())
-            appointed->setObjectName("appointed");
+            appointed->setObjectName(QString::fromUtf8("appointed"));
         appointed->resize(817, 600);
         message_show = new QTableWidget(appointed);
         if (message_show->columnCount() < 6)
@@ -65,53 +65,53 @@ public:
         message_show->setHorizontalHeaderItem(5, __qtablewidgetitem5);
         if (message_show->rowCount() < 5)
             message_show->setRowCount(5);
-        message_show->setObjectName("message_show");
+        message_show->setObjectName(QString::fromUtf8("message_show"));
         message_show->setGeometry(QRect(60, 20, 511, 231));
         tableView = new QTableView(appointed);
-        tableView->setObjectName("tableView");
+        tableView->setObjectName(QString::fromUtf8("tableView"));
         tableView->setGeometry(QRect(60, 280, 681, 221));
         label = new QLabel(appointed);
-        label->setObjectName("label");
+        label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(600, 40, 69, 19));
         label_2 = new QLabel(appointed);
-        label_2->setObjectName("label_2");
+        label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(600, 80, 69, 19));
         label_3 = new QLabel(appointed);
-        label_3->setObjectName("label_3");
+        label_3->setObjectName(QString::fromUtf8("label_3"));
         label_3->setGeometry(QRect(600, 110, 71, 21));
         label_4 = new QLabel(appointed);
-        label_4->setObjectName("label_4");
+        label_4->setObjectName(QString::fromUtf8("label_4"));
         label_4->setGeometry(QRect(620, 150, 69, 19));
         label_5 = new QLabel(appointed);
-        label_5->setObjectName("label_5");
+        label_5->setObjectName(QString::fromUtf8("label_5"));
         label_5->setGeometry(QRect(600, 180, 69, 19));
         label_6 = new QLabel(appointed);
-        label_6->setObjectName("label_6");
+        label_6->setObjectName(QString::fromUtf8("label_6"));
         label_6->setGeometry(QRect(600, 210, 69, 19));
         ap_BianHao = new QLineEdit(appointed);
-        ap_BianHao->setObjectName("ap_BianHao");
+        ap_BianHao->setObjectName(QString::fromUtf8("ap_BianHao"));
         ap_BianHao->setGeometry(QRect(660, 150, 113, 21));
         ap_phone = new QLineEdit(appointed);
-        ap_phone->setObjectName("ap_phone");
+        ap_phone->setObjectName(QString::fromUtf8("ap_phone"));
         ap_phone->setGeometry(QRect(660, 180, 113, 21));
         ap_door = new QLineEdit(appointed);
-        ap_door->setObjectName("ap_door");
+        ap_door->setObjectName(QString::fromUtf8("ap_door"));
         ap_door->setGeometry(QRect(660, 210, 113, 21));
         ap_sta_time = new QTimeEdit(appointed);
-        ap_sta_time->setObjectName("ap_sta_time");
+        ap_sta_time->setObjectName(QString::fromUtf8("ap_sta_time"));
         ap_sta_time->setGeometry(QRect(660, 80, 118, 21));
         ap_end_time = new QTimeEdit(appointed);
-        ap_end_time->setObjectName("ap_end_time");
+        ap_end_time->setObjectName(QString::fromUtf8("ap_end_time"));
         ap_end_time->setGeometry(QRect(660, 110, 118, 21));
         ap_data = new QDateEdit(appointed);
-        ap_data->setObjectName("ap_data");
+        ap_data->setObjectName(QString::fromUtf8("ap_data"));
         ap_data->setGeometry(QRect(660, 40, 121, 20));
         pushButton = new QPushButton(appointed);
-        pushButton->setObjectName("pushButton");
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(180, 530, 101, 41));
         pushButton->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 255, 255);"));
         pushButton_2 = new QPushButton(appointed);
-        pushButton_2->setObjectName("pushButton_2");
+        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setGeometry(QRect(470, 530, 101, 41));
         pushButton_2->setStyleSheet(QString::fromUtf8("background-color: rgb(170, 255, 255);"));
 
