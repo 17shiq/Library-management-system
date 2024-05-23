@@ -69,22 +69,5 @@ void Widget::change(){
         }
     }while(true);
 
-    if("btn_book" == str){
-        //book->initPage();
-        ui->stackedWidget->setCurrentIndex(0);
-    }
-    if("btn_user" == str){
-        ui->stackedWidget->setCurrentIndex(4);
-    }
-    if("btn_sent" == str){
-        ui->stackedWidget->setCurrentIndex(2);
-    }
-    if("btn_meeting" == str){
-        ui->stackedWidget->setCurrentIndex(3);
-    }
-    if("btn_record" == str){
-        ui->stackedWidget->setCurrentIndex(1);
-    }
-
 }
 
