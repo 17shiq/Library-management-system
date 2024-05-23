@@ -22,8 +22,8 @@ void user_page::init()
     ui->stackedWidget->addWidget(book);
 
     //会议记录表
-    appo = new appointed(this);
-    ui->stackedWidget->addWidget(appo);
+    res = new reservation(this);
+    ui->stackedWidget->addWidget(res);
 
     //登录之后首先显示的页面
     ui->stackedWidget->setCurrentIndex(0);

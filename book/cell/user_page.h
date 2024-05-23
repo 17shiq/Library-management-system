@@ -6,7 +6,7 @@
 #include <QDialog>
 #include <QtDebug>
 #include "book.h"
-#include "appointed.h"
+#include "reservation.h"
 
 namespace Ui {
 class user_page;
@@ -25,7 +25,7 @@ public:
 private:
     Ui::user_page *ui;
     Book *book;
-    appointed *appo;
+    reservation *res;
 };
 
 #endif // USER_PAGE_H

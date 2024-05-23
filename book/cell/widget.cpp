@@ -24,12 +24,17 @@ void Widget::init()
     ui->stackedWidget->addWidget(book);
 
     //会议记录表
+<<<<<<< HEAD
     appo = new appointed(this);
     ui->stackedWidget->addWidget(appo);
     //借阅管理
     record =new Record(this);
     ui->stackedWidget->addWidget(record);
 
+=======
+    res = new reservation(this);
+    ui->stackedWidget->addWidget(res);
+>>>>>>> 12115cf41abdf7323144b5fef252eb3a4fb73496
 
     //登录之后首先显示的页面
     ui->stackedWidget->setCurrentIndex(0);
