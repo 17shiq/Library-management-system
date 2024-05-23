@@ -1,22 +1,20 @@
-#include "widget.h"
-#include "ui_widget.h"
+#include "user_page.h"
+#include "ui_user_page.h"
 
-Widget::Widget(QWidget *parent)
-    : QWidget(parent)
-    , ui(new Ui::Widget),book(nullptr)
+user_page::user_page(QWidget *parent) :
+    QWidget(parent),
+    ui(new Ui::user_page)
 {
     ui->setupUi(this);
-    init();
-
 }
 
-Widget::~Widget()
+user_page::~user_page()
 {
     delete ui;
 }
 
 //对页面进行初始化
-void Widget::init()
+void user_page::init()
 {
     //先实例化页面对象，然后添加到stackedwidget中
     //图书页面
@@ -35,14 +33,15 @@ void Widget::init()
     for(auto it:l){
         //判断是否是按钮，是就连接信号和槽，否则不连接
         if(it->objectName().contains("btn")){
-            connect(static_cast<QPushButton*>(it),&QPushButton::clicked,this,&Widget::change);
+            connect(static_cast<QPushButton*>(it),&QPushButton::clicked,this,&user_page::change);
         }
     }
     book->initPage();
+
 }
 
-//槽函数，点击主窗口左边的按钮时，进行页面的切换
-void Widget::change(){
+void user_page::change()
+{
     QString str = sender()->objectName();
 
     do{
@@ -51,23 +50,17 @@ void Widget::change(){
             ui->stackedWidget->setCurrentIndex(0);
             break;
         }
-        if("btn_user" == str){
+        if("btn_sent" == str){
             ui->stackedWidget->setCurrentIndex(1);
             break;
         }
-        if("btn_sent" == str){
+        if("btn_meeting" == str){
             ui->stackedWidget->setCurrentIndex(2);
             break;
         }
-        if("btn_meeting" == str){
+        if("btn_record" == str){
             ui->stackedWidget->setCurrentIndex(3);
             break;
         }
-        if("btn_record" == str){
-            ui->stackedWidget->setCurrentIndex(4);
-            break;
-        }
     }while(true);
-
 }
-

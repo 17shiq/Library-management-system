@@ -2,9 +2,11 @@ release/appointed.o
 release/book.o
 release/login.o
 release/main.o
+release/user_page.o
 release/widget.o
 release/sql.o
 release/moc_appointed.o
 release/moc_book.o
 release/moc_login.o
+release/moc_user_page.o
 release/moc_widget.o
