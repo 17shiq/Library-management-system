@@ -1,11 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'user.ui'
 **
-<<<<<<< HEAD
-** Created by: Qt User Interface Compiler version 6.6.3
-=======
 ** Created by: Qt User Interface Compiler version 5.15.2
->>>>>>> 5cad8d28bb783e651935dd6a6d410b0a9f5e7808
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -15,6 +11,8 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+<<<<<<< HEAD
+=======
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
@@ -22,6 +20,7 @@
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QTableView>
+>>>>>>> 12115cf41abdf7323144b5fef252eb3a4fb73496
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -29,6 +28,8 @@ QT_BEGIN_NAMESPACE
 class Ui_user
 {
 public:
+<<<<<<< HEAD
+=======
     QGridLayout *gridLayout;
     QWidget *widget;
     QGridLayout *gridLayout_2;
@@ -38,10 +39,13 @@ public:
     QLabel *label;
     QSpacerItem *horizontalSpacer;
     QTableView *tableView;
+>>>>>>> 12115cf41abdf7323144b5fef252eb3a4fb73496
 
     void setupUi(QWidget *user)
     {
         if (user->objectName().isEmpty())
+<<<<<<< HEAD
+=======
             user->setObjectName("user");
         user->resize(619, 469);
         gridLayout = new QGridLayout(user);
@@ -86,6 +90,7 @@ public:
 
         gridLayout->addWidget(tableView, 1, 0, 1, 1);
 
+>>>>>>> 12115cf41abdf7323144b5fef252eb3a4fb73496
             user->setObjectName(QString::fromUtf8("user"));
         user->resize(577, 463);
 
@@ -97,9 +102,12 @@ public:
     void retranslateUi(QWidget *user)
     {
         user->setWindowTitle(QCoreApplication::translate("user", "Form", nullptr));
+<<<<<<< HEAD
+=======
         pushButton_2->setText(QCoreApplication::translate("user", "\345\210\240\351\231\244\347\224\250\346\210\267", nullptr));
         pushButton->setText(QCoreApplication::translate("user", "\345\257\274\345\205\245\347\224\250\346\210\267", nullptr));
         label->setText(QCoreApplication::translate("user", "\346\220\234\347\264\242", nullptr));
+>>>>>>> 12115cf41abdf7323144b5fef252eb3a4fb73496
     } // retranslateUi
 
 };

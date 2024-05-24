@@ -3,7 +3,7 @@
 
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
-    , ui(new Ui::Widget),book(nullptr),userpage(nullptr)
+    , ui(new Ui::Widget),book(nullptr)
 {
     ui->setupUi(this);
     init();
@@ -19,21 +19,31 @@ Widget::~Widget()
 void Widget::init()
 {
     //先实例化页面对象，然后添加到stackedwidget中
-    //用户管理页面
-    //userpage = new user(this);
-    //ui->stackedWidget->addWidget(userpage);
-    //先实例化页面对象，然后添加到stackedwidget中
     //图书页面
     book = new Book(this);
     ui->stackedWidget->addWidget(book);
+<<<<<<< HEAD
     //用户管理页面
     userpage = new user(this);
     ui->stackedWidget->addWidget(userpage);
 
 
     //预约会议
+=======
+
+    //会议记录表
+<<<<<<< HEAD
+    appo = new appointed(this);
+    ui->stackedWidget->addWidget(appo);
+    //借阅管理
+    record =new Record(this);
+    ui->stackedWidget->addWidget(record);
+
+=======
+>>>>>>> 93b816f793e42319d524c3bc3be900e4636201f8
     res = new reservation(this);
     ui->stackedWidget->addWidget(res);
+>>>>>>> 12115cf41abdf7323144b5fef252eb3a4fb73496
 
     //登录之后首先显示的页面
     ui->stackedWidget->setCurrentIndex(0);
