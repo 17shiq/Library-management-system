@@ -29,7 +29,9 @@ void Widget::init()
     //用户管理页面
     userpage = new user(this);
     ui->stackedWidget->addWidget(userpage);
-    //会议记录表
+
+
+    //预约会议
     res = new reservation(this);
     ui->stackedWidget->addWidget(res);
 
